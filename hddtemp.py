@@ -134,7 +134,7 @@ class HddTempHandler(socketserver.BaseRequestHandler):
 
 def parse_args():
     parser = argparse.ArgumentParser(description='hddtemp partially reimplemented in python',
-            epilog="Can use any of udisk2 daemon and drivetemp kernel module to get the drives' temperatures. Will report whether disks are spun down if run as root.")
+            epilog="Can use any of udisks2 daemon and drivetemp kernel module to get the drives' temperatures. Will report whether disks are spun down if run as root.")
 
     parser.add_argument('-D', '--debug', action='store_true',
             help="Display various UDisks2 fields and their values.")
