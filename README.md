@@ -21,5 +21,5 @@ options:
 
 ```
 
-Can use any of udisk2 daemon and drivetemp kernel module to get the drives' temperatures. Will report whether disks are spun down if run as
+Can use any of udisks2 daemon and drivetemp kernel module to get the drives' temperatures. Will report whether disks are spun down if run as
 root.
